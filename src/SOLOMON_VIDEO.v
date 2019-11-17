@@ -327,7 +327,7 @@ always @( posedge VCLKx4 ) begin
 		end
 
 	 `FETCH3: begin
-			SX    <= SPADT+1;
+			SX    <= SPADT;
 			WC    <= 15;
 			STATE <= `DRAW;
 		end
